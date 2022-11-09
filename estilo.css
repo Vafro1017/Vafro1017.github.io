@@ -5,11 +5,11 @@ body{
 }
 a{
     text-decoration: none;
-    color: white;
+    color:white
 }
 header{
     display: flex;
-    height: 100px;
+    height: 120px;
     background: rgb(136, 42, 136);
     justify-content: space-between;
     align-items: center;
@@ -28,7 +28,7 @@ nav a{
     padding-right: 10px;
 }
 nav a:hover{
-    color:rgb(58, 0, 64);
+    color:rgb(164, 94, 172);
 }
 
 @media (max-width:700px){
@@ -41,27 +41,76 @@ nav a:hover{
     }
 }
 
-h1{
-    color: rgb(43, 0, 39);
-    font-size: 2em;
-    text-align: center;
-    position: relative;
-    top: 35%;
-
+iframe{
+    position:relative;
+    top:50px;
 }
+
 .F{
+    top: 100px;
     display: table;
-    height: 420px;
+    height: 220px;
     margin:2rem auto;
     text-align: center;
     width: 600px;
 }
+.F h1{
+    color: rgb(100, 100, 100);
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+    
+}
 .F p{
-    color: rgb(43, 0, 39);
+    color: rgb(100, 100, 100);
     text-align: justify;
     margin: 0;
     padding: 0 1rem;
     vertical-align: middle;
     letter-spacing: 1px;
     line-height: 150%;
+}
+.F2{
+    display: table;
+    height: 550px;
+    margin:2rem auto;
+    text-align: center;
+    width: 600px;
+}
+.F2 h1{
+    color: rgb(100, 100, 100);
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+}
+.F2 p{
+    color: rgb(100, 100, 100);
+    text-align: justify;
+    margin: 0;
+    padding: 0 1rem;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+.B{
+    width: 300px;
+    height: 100px;
+    margin:0 auto;
+}
+.B h1{
+    color: rgb(100, 100, 100);
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+}
+
+.B a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.B a img{
+    width: 100px;
+    margin-top: 25px;
 }
