@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Galery.css"/>
+        <title>YIIK | Galery</title>
+    </head>
+
+    <body>
+        <header>
+            <a herf="#" class="logo">
+                <img alt="logo" src="https://www.ackkstudios.com/uploads/8/6/9/3/8693649/logoforsiteyiik.png"/>
+            </a>
+            <nav>
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="" class="nav-link">Store</a>
+                <a href="Galery.html" class="nav-link">Galery</a>
+                <a href="Credits.html" class="nav-link">Credits</a>
+                <a href="FAQ.html" class="nav-link">FAQ</a>
+
+            </nav>
+        </header>
+
+        <h1>SCREEN SHOT GALLERY</h1>
+
+        <div class="row">
+            <div class="column">
+                <div class="i"><img alt="Ph1" src="https://www.yiikrpg.com/uploads/8/6/9/3/8693649/yiikiv-ss2_orig.png">
+                </div>
+                <div class="i"><img alt="Ph2" src="https://www.yiikrpg.com/uploads/8/6/9/3/8693649/yiik-a-postmodern-rpghighresscreenshotevsx17_orig.png">
+                </div>
+                <div class="i"><img alt="Ph3" src="https://www.yiikrpg.com/uploads/8/6/9/3/8693649/yiik-a-postmodern-rpgrunningalex2_orig.png">
+                </div>
+                <div class="i"><img alt="Ph4" src="https://www.yiikrpg.com/uploads/8/6/9/3/8693649/yiik-a-postmodern-rpghighresscreenshotevsx12_orig.png">
+                </div>
+                <div class="i"><img alt="Ph5" src="https://www.yiikrpg.com/uploads/8/6/9/3/8693649/yiik-a-postmodern-rpghighresscreenshotevsx36_orig.png">
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="i"><img alt="Ph6" src="https://www.yiikrpg.com/uploads/8/6/9/3/8693649/yiik-a-postmodern-rpghighresscreenshot17_orig.png">
+                </div>
+                <div class="i"><img alt="Ph7" src="https://www.yiikrpg.com/uploads/8/6/9/3/8693649/yiik-a-postmodern-rpghighresscreenshot16-1_orig.png">
+                </div>
+                <div class="i"><img alt="Ph8" src="https://www.yiikrpg.com/uploads/8/6/9/3/8693649/crowyiikivlogo_orig.png">
+                </div>
+                <div class="i"><img alt="Ph9" src="https://www.yiikrpg.com/uploads/8/6/9/3/8693649/yiikiv-ss1_orig.png">
+                </div>
+                <div class="i"><img alt="Ph10" src="https://www.yiikrpg.com/uploads/8/6/9/3/8693649/yiik-iv-screenshot-9-1-4_orig.png">
+                </div>
+            </div>
+
+            <div class="popup">
+                <span>&times;</span>
+                <img alt="Ph1" src="https://www.yiikrpg.com/uploads/8/6/9/3/8693649/yiikiv-ss2_orig.png">
+            </div>
+
+            <script>
+                document.querySelectorAll('.row img').forEach(image =>{
+                    image.onclick = () =>{
+                        document.querySelector('.popup').style.display = 'block';
+                        document.querySelector('.popup img').src =image.getAttribute('src');
+                    }
+                });
+
+                document.querySelector('.popup span').onclick =()=>{
+                    document.querySelector('.popup').style.display = 'none';
+                }
+            </script>
+
+        </div>
+
+        <footer>
+            <div class="CF">
+                <div class="Gr">
+                    <h2>ACKK STUDIOS<br></h2>
+                    <a href="https://www.ackkstudios.com">HOME</a>
+                    <a href="https://www.ackkstudios.com/about.html">ABOUT</a>
+                </div>
+
+                <div class="Gr">
+                    <h2>SOCIAL MEDIA</h2>
+                    <a href="https://www.youtube.com/channel/UCfclSvnAiN5noff_kiwSVQg" target="_blank">YOUTUBE</a>
+                    <a href="https://twitter.com/AckkStudios" target="_blank">TWITER</a>
+                </div>
+
+                <div class="Gr">
+                    <h2>PROJECTS</h2>
+                    <a href="https://www.ackkstudios.com/twobrothers.html" target="_blank">TWO BROTHERS</a>
+                </div>
+                
+                <div class="GrC">
+                    <p>&copy; 2022 ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+
+</html>

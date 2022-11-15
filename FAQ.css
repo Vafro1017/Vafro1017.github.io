@@ -1,7 +1,7 @@
 body{
     font-family: sans-serif; 
     margin:0;
-    background-color: rgba(238, 237, 239, 0.764);
+    background-color: rgba(247, 247, 213, 0.764);
 }
 a{
     text-decoration: none;
@@ -10,10 +10,12 @@ a{
 header{
     display: flex;
     height: 120px;
-    background: rgb(136, 42, 136);
+    background: url(imagenes/Fondoheader.jpg)no-repeat;
+    background-size: cover;    
     justify-content: space-between;
     align-items: center;
     padding: 5px;
+    
 }
 .logo {
     display:flex;
@@ -51,6 +53,38 @@ h1{
     font-size: 4em;
     text-align: center;
     position: relative;
+}
+
+
+.Questions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.preguntas{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.Questions a{
+    color: rgb(203, 191, 31);
+    text-align: justify;
+    margin: 0;
+    padding: 0 1rem;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+.Questions ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-right: 8vh;
 }
 
 .q1{
@@ -166,7 +200,7 @@ h1{
 .q5{
     top: 100px;
     display: table;
-    height: 100px;
+    height: 150px;
     margin:2rem auto;
     text-align: center;
     width: 600px;
@@ -240,4 +274,158 @@ h1{
     
     width: 500px;
     margin-top: 25px;
+}
+
+
+.q7{
+    top: 100px;
+    display: table;
+    height: 50px;
+    margin:2rem auto;
+    text-align: center;
+    width: 600px;
+}
+
+
+.q7 h1{
+    color: rgb(203, 191, 31);
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+}
+
+.q7 p{
+    color: rgb(100, 100, 100);
+    text-align: center;
+    margin: 0;
+    padding: 0 1rem;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+.DARK{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DARK img{
+    
+    width: 600px;
+}
+
+
+.q8{
+    top: 100px;
+    display: table;
+    height: 50px;
+    margin:2rem auto;
+    text-align: center;
+    width: 600px;
+}
+
+
+.q8 h1{
+    color: rgb(203, 191, 31);
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+}
+
+.VELLA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.VELLA img{
+    
+    width: 600px;
+}
+
+
+.q9{
+    top: 100px;
+    display: table;
+    height: 80px;
+    margin:2rem auto;
+    text-align: center;
+    width: 600px;
+}
+
+
+.q9 h1{
+    color: rgb(203, 191, 31);
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+}
+
+.q9 p{
+    color: rgb(100, 100, 100);
+    text-align: left;
+    margin: 0;
+    padding: 0 1rem;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+
+footer {
+    top: 100px;
+    width: 100%;
+    background: url(imagenes/Fondoheader.jpg)no-repeat;
+    background-size: cover;   
+    padding: -60px 0px;
+}
+
+.CF {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+.Gr{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.Gr h2{
+    margin-bottom: 30px;
+    color: #d9d3da;;
+    font-weight: 700;
+}
+
+.Gr a{
+    margin-top: 10px;
+    color: #aca9a9;
+    font-weight: 600;
+}
+
+.Gr a:hover{
+    opacity: 0.8;
+}
+
+.Gr a .fab{
+    font-size: 20px;
+}
+
+.GrC {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+    color: #aca9a9;
+}
+
+.GrC p{
+    margin-top: 20px;
+
 }

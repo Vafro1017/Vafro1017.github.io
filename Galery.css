@@ -1,7 +1,7 @@
 body{
     font-family: sans-serif; 
     margin:0;
-    background-color: rgba(238, 237, 239, 0.764);
+    background-color: rgba(71, 70, 73, 0.989);
 }
 a{
     text-decoration: none;
@@ -16,14 +16,15 @@ header{
     align-items: center;
     padding: 5px;
 }
+
 .logo {
     display:flex;
     align-items: center;
 }
 .logo img {
     height: 80px;
-    
 }
+
 nav a{
     font-weight: 500;
     padding-right: 10px;
@@ -47,78 +48,72 @@ iframe{
     top:50px;
 }
 
-.F{
-    top: 100px;
-    display: table;
-    height: 220px;
-    margin:2rem auto;
-    text-align: center;
-    width: 600px;
-}
-.F h1{
-    color: rgb(100, 100, 100);
-    font-size: 2em;
+h1{
+    top: 20px;
+    color: rgba(235, 188, 246, 0.799);
+    font-size: em;
     text-align: center;
     position: relative;
-    
-}
-.F p{
-    color: rgb(100, 100, 100);
-    text-align: justify;
-    margin: 0;
-    padding: 0 1rem;
-    vertical-align: middle;
-    letter-spacing: 1px;
-    line-height: 150%;
-}
-.F2{
-    display: table;
-    height: 550px;
-    margin:2rem auto;
-    text-align: center;
-    width: 600px;
-}
-.F2 h1{
-    color: rgb(100, 100, 100);
-    font-size: 2em;
-    text-align: center;
-    position: relative;
-}
-.F2 p{
-    color: rgb(100, 100, 100);
-    text-align: justify;
-    margin: 0;
-    padding: 0 1rem;
-    vertical-align: middle;
-    letter-spacing: 1px;
-    line-height: 150%;
 }
 
-.B{
-    width: 410px;
-    height: 120px;
-    margin:0 auto;
-}
-.B h1{
-    color: rgb(100, 100, 100);
-    font-size: 2em;
+.row{
+    display: flex;
+    top:25px; 
+    height: 1100px;
+    margin:2rem auto;
     text-align: center;
-    position: flex;
+    width: 800px;
 }
-.B ul {
-    list-style: 5;
-    display: flex;
-    margin: 0;
-    padding-right: 4vh;
+
+.row img{
+    width:100%;
 }
-.B a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+
+.i:hover img{
+    transform: scale(1.1);
 }
-.B a img{
-    width: 100px;
-    margin-top: 5px;
+
+.column{
+    flex:25%;
+    padding:10px;
+}
+
+.column img{
+    margin-top: 10px;
+}
+
+.row .popup{
+    position: fixed;
+    top: 0; 
+    left: 0;
+    background: rgb(0,0,0,.9);
+    height: 100%;
+    width:100%;
+    z-index: 100;
+    display: none;
+}
+
+.popup span{
+    position: absolute;
+    top:0;
+    right: 10px;
+    font-size: 70px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.popup img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius: 5px;
+    width:750PX;
+    object-fit: cover;
 }
 
 footer {
@@ -147,7 +142,7 @@ footer {
 
 .Gr h2{
     margin-bottom: 30px;
-    color: #d9d3da;
+    color: #d9d3da;;
     font-weight: 700;
 }
 
