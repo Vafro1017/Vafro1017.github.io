@@ -1,7 +1,7 @@
 body{
     font-family: sans-serif; 
     margin:0;
-    background-color: rgba(238, 237, 239, 0.764);
+    background-color: rgba(255, 238, 207, 0.764);
 }
 a{
     text-decoration: none;
@@ -41,6 +41,172 @@ nav a:hover{
         padding: 10px 0px;
     }
 }
+
+
+.C1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.C1 c{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+
+.C1 h2{
+    color: rgb(84, 84, 84);
+    text-align: justify;
+    margin: 0;
+    padding: 0 1rem;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+.C1 a{
+    color: rgb(133, 133, 133);
+    text-align: justify;
+    margin: 0;
+    padding: 0 1rem;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+.C1 ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-right: 8vh;
+}
+
+.Separador{
+    height: 60px;
+    margin:2rem auto;
+    text-align: center;
+    width: 650px;
+    background: url(imagenes/Sep.png)no-repeat
+}
+
+.C2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.co2{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+
+.C2 h2{
+    color: rgb(84, 84, 84);
+    text-align: justify;
+    margin: 0;
+    padding: 0 1rem;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+.C2 a{
+    color: rgb(133, 133, 133);
+    text-align: justify;
+    margin: 0;
+    padding: 0 1rem;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+
+.Separador2{
+    height: 60px;
+    margin:2rem auto;
+    text-align: center;
+    width: 650px;
+    background: url(imagenes/sep2.png)no-repeat
+}
+
+.C3{
+    top: 100px;
+    display: table;
+    height: 80px;
+    margin:2rem auto;
+    text-align: center;
+    width: 600px;
+}
+
+.C3 h2{
+    color: rgb(84, 84, 84);
+    font-size: 2em;
+    text-align: center;
+    position: relative;
+}
+
+.C3 p{
+    color: rgb(133, 133, 133);
+    text-align: left;
+    margin: 0;
+    padding: 0 1rem;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+
+.Separador3{
+    height: 60px;
+    margin:2rem auto;
+    text-align: center;
+    width: 650px;
+    background: url(imagenes/sep3.PNG)no-repeat
+}
+
+.C4{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.co4{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+
+.C4 h2{
+    color: rgb(84, 84, 84);
+    text-align: left;
+    margin: 0;
+    padding: 0 1rem;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+.C4 a{
+    color: rgb(133, 133, 133);
+    margin: 0;
+    padding: 0 1rem;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
 
 footer {
     top: 100px;
